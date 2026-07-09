@@ -89,7 +89,7 @@ def _gemini_explanation(entity_id: str, week: str, flagged_features: list) -> st
     )
     url = (
         "https://generativelanguage.googleapis.com/v1beta/models/"
-        f"gemini-2.5-flash:generateContent?key={api_key}"
+        f"gemini-3.5-flash:generateContent?key={api_key}"
     )
     resp = requests.post(
         url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=30
