@@ -149,7 +149,7 @@ export default function Sidebar({ onRun, loading, backendStatus }) {
           }
           `}
         >
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3"></div>
             <GitBranch className="w-5 h-5 text-white" />
 
             <div>
