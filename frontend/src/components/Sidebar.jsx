@@ -202,7 +202,7 @@ export default function Sidebar({ onRun, loading, backendStatus }) {
               type="text"
               value={repoInput}
               onChange={(e) => setRepoInput(e.target.value)}
-              placeholder="Repo Link"
+              placeholder=" Enter as Owner/Repo"
 
               className="
               flex-1
