@@ -1,6 +1,6 @@
 # BehaviorDrift
 
-BehaviorDrift watches a GitHub repository's *weekly activity pattern* : commit volume,
+BehaviorDrift watches a GitHub repository's *weekly activity pattern* : commit volume, 
 number of unique authors, dependency-file churn , and flags weeks that deviate from that
 specific repo's own history. It's not a vulnerability scanner and doesn't match known
 signatures (that's what Dependabot/Snyk already do); it's looking for the kind of thing a
